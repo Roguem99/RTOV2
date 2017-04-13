@@ -1,0 +1,15 @@
+{
+  "name": "App",
+  "private": true,
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#master"
+  },
+  "preen": {
+    "ngCordova": [
+      "dist/ng-cordova.min.js"
+    ]
+  },
+  "dependencies": {
+    "angular-circle-countdown": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "rTrackerAppV2",
+  "app_id": "4beefd65",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
