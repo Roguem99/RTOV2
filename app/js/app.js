@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'App' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
+angular.module('App', ['ionic', 'ngCordova', 'ngAnimate', 'datepicker-ionic2'])
 
 .run(['$ionicPlatform',
       function($ionicPlatform) {
