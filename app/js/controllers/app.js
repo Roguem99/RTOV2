@@ -47,13 +47,13 @@
                 date: "7/19/2017"
             }
         ];
-for (let [key, value] of Dict.entries(myObj))
-        $scope.calculateDateTimeLeft = function((let [item, date] of items) {
-          var oneDay = 24*60*60*1000;
-          var currentDate = new Date(Date.now()).toLocaleString();
-          var releaseDate = "December 13, 2017 11:13:00";
-          return Math.round(Math.abs((currentDate.getTime() - releaseDate.getTime())/(oneDay)));
-        };
+// for (let [key, value] of Dict.entries(myObj))
+//         $scope.calculateDateTimeLeft = function((let [item, date] of items) {
+//           var oneDay = 24*60*60*1000;
+//           var currentDate = new Date(Date.now()).toLocaleString();
+//           var releaseDate = "December 13, 2017 11:13:00";
+//           return Math.round(Math.abs((currentDate.getTime() - releaseDate.getTime())/(oneDay)));
+//         };
 
         $scope.exitApp = function () {
             ionic.Platform.exitApp();
