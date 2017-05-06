@@ -44,7 +44,4 @@
 	angular.module('ionic')
     .directive('select', SelectDirective);
 
-	/*angular.module('ionic-datepicker')
-	.directive('select', SelectDirective);*/
-
 })(angular, ionic);
